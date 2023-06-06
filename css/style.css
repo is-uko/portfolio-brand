@@ -1,0 +1,120 @@
+* {
+  font-family: "Crimson Text", serif;
+}
+
+a {
+    color: black;
+}
+
+header .mainvisual img {
+  height: 334px;
+  width: 100%;
+  object-fit: cover;
+}
+
+header nav {
+  margin: 0 auto;
+  padding: 24px 18px 53.02px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+header nav img {
+  height: 13.98px;
+  margin-right: auto;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  font-size: 14px;
+  padding-right: 30px;
+}
+
+header nav ul li:last-child {
+  padding-right: 0;
+}
+
+main,
+footer {
+  width: min(90vw, 1000px);
+  margin: 0 auto;
+}
+
+main h2 {
+  font-size: 20px;
+  padding-bottom: 4px;
+}
+
+main h3 {
+  font-size: 16px;
+  padding-bottom: 25px;
+}
+
+main p {
+  font-size: 16px;
+  padding-bottom: 60px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+footer img {
+  height: 13.98px;
+}
+
+footer small {
+  font-size: 14px;
+}
+
+@media (min-width: 767px) {
+  header {
+    width: 90vw;
+    margin: 0 auto;
+    padding-top: 60px;
+  }
+
+  header nav {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  main #concept,
+  main #work {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  main img,
+  .texts {
+    width: 50%;
+  }
+
+  main .texts {
+    padding: 0 67px;
+  }
+
+  main #concept {
+    padding-bottom: 60px;
+  }
+
+  main #work {
+    padding-bottom: 60px;
+  }
+
+  main #work texts {
+    order: 1;
+  }
+
+  main #work img {
+    order: 2;
+  }
+}
